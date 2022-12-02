@@ -1,7 +1,7 @@
 from ebaysdk.finding import Connection as finding
 from bs4 import BeautifulSoup
 
-ID_APP = 'TaseenSi-eba-PRD-cc5c26cd1-8b1f1867'
+ID_APP = '' #insert ebay api account access key 
 
 Keywords = input('what are you searching for?\n')
 api = finding(appid=ID_APP, config_file=None)
